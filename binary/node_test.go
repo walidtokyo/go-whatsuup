@@ -2,7 +2,7 @@ package binary
 
 import (
 	"fmt"
-	"github.com/Rhymen/go-whatsapp/binary/proto"
+	"github.com/walidtokyo/go-whatsuup/binary/proto"
 	"reflect"
 	"testing"
 )
