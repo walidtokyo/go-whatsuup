@@ -12,13 +12,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Rhymen/go-whatsapp/crypto/cbc"
-	"github.com/Rhymen/go-whatsapp/crypto/curve25519"
-	"github.com/Rhymen/go-whatsapp/crypto/hkdf"
+	"github.com/walidtokyo/go-whatsuup/crypto/cbc"
+	"github.com/walidtokyo/go-whatsuup/crypto/curve25519"
+	"github.com/walidtokyo/go-whatsuup/crypto/hkdf"
 )
 
 //represents the WhatsAppWeb client version
-var waVersion = []int{2, 2039, 9}
+var waVersion = []int{2, 2202, 12}
 
 /*
 Session contains session individual information. To be able to resume the connection without scanning the qr code
